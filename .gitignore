@@ -1,3 +1,5 @@
+.env
+*/.env
 panda
 panda
 pandacan.egg-info/dependency_links.txt
