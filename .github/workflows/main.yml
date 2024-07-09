@@ -12,6 +12,6 @@ jobs:
         - name: Sync Github PRs to Notion
           uses: sivashanmukh/github-notion-pr-sync@1.0.0
           with:
-            notionKey: secret_hlVxtHx2rDxbK4rN5qyeUrMkcB1ubjgG3QEgvA5ZgD4
-            notionDatabaseId: ffd57ae59c8e449e95767f99ab438b3c
+            notionKey: secret_Ay6d3KrOh3YVVxaoAAUFnMdqvVkgTH2vEEtqDpyNmsV
+            notionDatabaseId: d97a6e633ddd42a99be1714513e82d35
             githubKey: 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
