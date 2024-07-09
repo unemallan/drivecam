@@ -14,4 +14,4 @@ jobs:
           with:
             notionKey: secret_Ay6d3KrOh3YVVxaoAAUFnMdqvVkgTH2vEEtqDpyNmsV
             notionDatabaseId: d97a6e633ddd42a99be1714513e82d35
-            githubKey: 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
+            githubKey: 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
