@@ -18,6 +18,7 @@ jobs:
           docs-directory: docs
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          token_v2: NOTION_TOKEN
 
       - name: Format documents
         uses: creyD/prettier_action@v3.1
