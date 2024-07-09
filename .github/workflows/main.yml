@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Notion2Github
-        uses: narkdown/notion2github@v1.1.1
+        uses: unemallan/notion2github@v1.1.1
         with:
           database-url: 'https://www.notion.so/c192c7104ab341f8ae581d0697419986'
           docs-directory: docs
