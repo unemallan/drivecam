@@ -15,7 +15,6 @@ jobs:
         uses: unemallan/notion2github@main
         with:
           database-url: 'https://www.notion.so/c192c7104ab341f8ae581d0697419986'
-          docs-directory: docs
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
 
