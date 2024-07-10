@@ -32,4 +32,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NOTION_DATABASE: ${{ secrets.NOTION_DATABASE }}
-          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_API_KEY: ${{ secrets.NOTION_PRO_API_KEY }}
