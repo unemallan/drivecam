@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Notion Board
-        uses: Souvikns/Notion-Board@2.2.0
+        uses: unemallan/Notion-Board@main
         with:
           setup: ${{github.event.inputs.setup}}
           syncIssues: ${{github.event.inputs.syncIssues}}
