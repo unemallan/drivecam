@@ -29,7 +29,6 @@ jobs:
           setup: ${{github.event.inputs.setup}}
           syncIssues: ${{github.event.inputs.syncIssues}}
           issueType: ${{github.event.inputs.issueType}}
-        env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NOTION_DATABASE: ${{ secrets.NOTION_DATABASE }}
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
